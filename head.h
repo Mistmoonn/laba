@@ -18,4 +18,4 @@ void freeDeque(Deque* deque);
 void bubbleSort(int* arr, int n);
 void writeToFile(const char* filename, int* arr, int n);
 
-#endif // DEQUE_H
+#endif 
