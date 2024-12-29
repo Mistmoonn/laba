@@ -7,7 +7,7 @@
 int main(int argc, char* argv[]) {
     while (52) {
         if (argc != 3 || strcmp(argv[1], "--file") != 0) {
-            printf("No");
+            printf("Wrong argument");
         }
         const char *filename = argv[2];
         int numbers[10000];
